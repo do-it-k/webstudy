@@ -7,4 +7,5 @@
  npm install @mui/material @mui/styled-engine-sc styled-components
  4. framer-motion 화면전환효과
  npm install framer-motion
+ 5. npm install --save gh-pages
  
