@@ -1,0 +1,126 @@
+:root {
+  /*main color*/
+  --main1: #4c5454;
+  --main2: #ff715b;
+  --main3: #1ea896;
+  --main4: #523f38;
+  /*box-bg*/
+  --box-bg: #f0f1f1;
+  /*gray*/
+  --gray1: #222222;
+  --gray2: #555555;
+  --gray3: #717171;
+  --gray4: #8f8f8f;
+  --gray5: #b7b7b7;
+  --gray6: #d6d6d6;
+  --gray7: #efefef;
+  --gray8: #ffffff;
+
+  /*line-color*/
+  --line1: #222222;
+  --line2: #d6d6d6;
+  --line3: #eaeced;
+  --line4: #f6f6f6;
+  --line5: #f8f9fa;
+}
+
+@font-face {
+  font-family: gs-m;
+  src: url(/public/font/GmarketSansTTFMedium.ttf);
+}
+@font-face {
+  font-family: gs-l;
+  src: url(/public/font/GmarketSansTTFLight.ttf);
+}
+@font-face {
+  font-family: gs-b;
+  src: url(/public/font/GmarketSansTTFBold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: gs-m;
+  list-style-type: none;
+  color: var(--main1);
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.header {
+  position: sticky;
+  box-shadow: 0px 8px 10px -14px rgba(0, 0, 0, 0.2),
+    0px 16px 24px -26px rgba(0, 0, 0, 0.14),
+    0px 6px 30px -8px rgba(0, 0, 0, 0.12);
+}
+.main-container {
+  flex: 1;
+}
+
+.footer {
+  box-shadow: 0px 8px 36px -14px rgba(0, 0, 0, 0.2),
+    0px 16px 60px -26px rgba(0, 0, 0, 0.14),
+    0px 6px 55px -8px rgba(0, 0, 0, 0.12);
+}
+.footer > div {
+  max-width: 1440px;
+  margin: 20px auto;
+}
+.footer > div > p {
+  padding: 8px 16px;
+}
+.footer > div > p:first-child {
+  font-family: gs-b;
+}
+.footer > div > p:last-child {
+  font-size: 0.85em;
+}
+.header > div {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0px 30px;
+  box-sizing: border-box;
+  position: relative;
+}
+.header > div > span {
+  position: absolute;
+  color: var(--main2);
+}
+.header > div > span.menu-icon {
+  cursor: pointer;
+}
+.header > div > span.setting-icon {
+  right: 30px;
+}
+.side-head {
+  height: 70px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0px 16px;
+  padding-bottom: 20px;
+}
+.side-head > a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+.side-head > a > img {
+  width: 40px;
+  margin-right: 15px;
+}
+.side-head > a > span {
+  font-family: gs-b;
+  font-size: 18px;
+  color: var(--main2);
+}
+.site-menu-item {
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  font-family: gs-l;
+  font-size: 14px;
+}

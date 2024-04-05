@@ -1,0 +1,10 @@
+ 1. 화면전환
+ npm install react-router-dom 
+ 2. 반응형웹 처리
+ npm install react-responsive 
+ 3. MUI
+ npm install @mui/material @emotion/react @emotion/styled
+ npm install @mui/material @mui/styled-engine-sc styled-components
+ 4. framer-motion 화면전환효과
+ npm install framer-motion
+ 
