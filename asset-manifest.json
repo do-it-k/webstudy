@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/webstudy/static/css/main.acecf58d.css",
-    "main.js": "/webstudy/static/js/main.de32373e.js",
+    "main.css": "/webstudy/static/css/main.74fa452b.css",
+    "main.js": "/webstudy/static/js/main.2c598cea.js",
     "static/js/453.6c1b5601.chunk.js": "/webstudy/static/js/453.6c1b5601.chunk.js",
     "static/media/GmarketSansTTFBold.ttf": "/webstudy/static/media/GmarketSansTTFBold.69428064ef8eee25be33.ttf",
     "static/media/GmarketSansTTFMedium.ttf": "/webstudy/static/media/GmarketSansTTFMedium.d4bac6b182bed73c9375.ttf",
     "static/media/GmarketSansTTFLight.ttf": "/webstudy/static/media/GmarketSansTTFLight.efaa8f19ead1555b1c39.ttf",
     "index.html": "/webstudy/index.html",
-    "main.acecf58d.css.map": "/webstudy/static/css/main.acecf58d.css.map",
-    "main.de32373e.js.map": "/webstudy/static/js/main.de32373e.js.map",
+    "main.74fa452b.css.map": "/webstudy/static/css/main.74fa452b.css.map",
+    "main.2c598cea.js.map": "/webstudy/static/js/main.2c598cea.js.map",
     "453.6c1b5601.chunk.js.map": "/webstudy/static/js/453.6c1b5601.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.acecf58d.css",
-    "static/js/main.de32373e.js"
+    "static/css/main.74fa452b.css",
+    "static/js/main.2c598cea.js"
   ]
 }
