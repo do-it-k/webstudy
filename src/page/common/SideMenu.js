@@ -121,7 +121,7 @@ const SideMenu = (props) => {
               }}
             >
               <Link to="/">
-                <img src="/image/logo.png"></img>
+                <img src="https://do-it-k.github.io/webstudy/image/logo.png"></img>
                 <span>WebStudy</span>
               </Link>
             </div>
