@@ -6,7 +6,8 @@ import ContentArea from "./page/common/ContentArea";
 import Footer from "./page/common/Footer";
 import { Route, Routes } from "react-router-dom";
 import JavaMain from "./page/java/JavaMain";
-import { motion } from "framer-motion";
+
+import Main from "./page/common/Main";
 
 function App() {
   const { isDesktopOrLaptop, isTabletOrMobileDevice } = useDeviceSize();
@@ -22,21 +23,17 @@ function App() {
     }
   }, [isDesktopOrLaptop]);
   return (
-    <motion.div
-      className="wrap"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 2 }}
-    >
+    <div className="wrap">
       <SideMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
       <Header toggleMenu={toggleMenu} />
       <ContentArea>
         <Routes>
           <Route path="/java/*" element={<JavaMain />} />
+          <Route path="*" element={<Main />} />
         </Routes>
       </ContentArea>
       <Footer></Footer>
-    </motion.div>
+    </div>
   );
 }
 

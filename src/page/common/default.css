@@ -124,3 +124,27 @@
   font-family: gs-l;
   font-size: 14px;
 }
+
+/*content*/
+.content-wrap {
+  max-width: 1440px;
+  margin: 10px auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content-category {
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: var(--main3);
+  font-family: gs-b;
+}
+.content-title {
+  font-family: gs-b;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.inner-content {
+  box-sizing: border-box;
+  padding: 5px;
+}

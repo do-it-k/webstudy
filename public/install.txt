@@ -9,4 +9,6 @@
  npm install framer-motion
  5. github page배포용
  npm install --save gh-pages
+ 6. swiper 슬라이더
+ npm install swiper
  
