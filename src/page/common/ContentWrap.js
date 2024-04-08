@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 const ContentWrap = (props) => {
-  console.log(props);
   const children = props.children;
   return (
     <motion.div
