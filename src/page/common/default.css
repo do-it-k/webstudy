@@ -148,3 +148,7 @@
   box-sizing: border-box;
   padding: 5px;
 }
+
+.ql-snow .ql-editor {
+  height: 500px;
+}

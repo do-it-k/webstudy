@@ -11,4 +11,10 @@
  npm install --save gh-pages
  6. swiper 슬라이더
  npm install swiper
- 
+ 7. react-quill 에디터
+ npm install react-quill
+ npm install quill-image-resize-module-react
+ 8. axios
+ npm install axios
+ 9. highlight
+ npm install highlight.js

@@ -35,6 +35,7 @@ const SideMenu = (props) => {
     <div className="side-menu">
       {isDesktopOrLaptop && (
         <Drawer
+          disableEnforceFocus
           sx={{
             width: 250,
             flexShrink: 0,
@@ -58,7 +59,7 @@ const SideMenu = (props) => {
             <div
               className="side-head"
               onClick={(e) => {
-                e.stopPropagation();
+                //e.stopPropagation();
               }}
             >
               <Link to="/">
@@ -74,7 +75,7 @@ const SideMenu = (props) => {
                     key={item.to}
                     disablePadding
                     onClick={(e) => {
-                      e.stopPropagation();
+                      //e.stopPropagation();
                     }}
                   >
                     <ListItemButton>
