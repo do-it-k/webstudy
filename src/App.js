@@ -8,6 +8,7 @@ import { Route, Routes } from "react-router-dom";
 import JavaMain from "./page/java/JavaMain";
 
 import Main from "./page/common/Main";
+import ManageMain from "./page/manage/ManageMain";
 
 function App() {
   const { isDesktopOrLaptop, isTabletOrMobileDevice } = useDeviceSize();
@@ -29,6 +30,7 @@ function App() {
       <ContentArea>
         <Routes>
           <Route path="/java/*" element={<JavaMain />} />
+          <Route path="/manage/*" element={<ManageMain />} />
           <Route path="*" element={<Main />} />
         </Routes>
       </ContentArea>

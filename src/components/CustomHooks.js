@@ -28,7 +28,11 @@ const useMenuList = () => {
     { index: 6, title: "난수", to: "/java/random" },
     { index: 7, title: "배열", to: "/java/array" },
   ];
-  return { mainMenu, javaMenu };
+  const manageMenu = [
+    { index: 1, title: "전체현황", to: "/manage/status" },
+    { index: 2, title: "글 등록", to: "/manage/regist" },
+  ];
+  return { mainMenu, javaMenu, manageMenu };
 };
 
 export { useDeviceSize, useMenuList };

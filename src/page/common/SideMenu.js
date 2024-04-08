@@ -22,10 +22,13 @@ const SideMenu = (props) => {
   const isMenuOpen = props.isMenuOpen;
   const toggleMenu = props.toggleMenu;
   const { isDesktopOrLaptop, isTabletOrMobileDevice } = useDeviceSize();
-  const { mainMenu, javaMenu } = useMenuList();
+  const { mainMenu, javaMenu, manageMenu } = useMenuList();
   const [menu, setMenu] = useState([]);
+
   useEffect(() => {
-    setMenu(subUrl === "java" ? javaMenu : mainMenu);
+    setMenu(
+      subUrl === "java" ? javaMenu : subUrl === "manage" ? manageMenu : mainMenu
+    );
   }, [subUrl]);
 
   return (
@@ -50,13 +53,8 @@ const SideMenu = (props) => {
             },
           }}
           open={isMenuOpen}
-          onClose={toggleMenu(false)}
         >
-          <Box
-            sx={{ width: 250, flexShrink: 0 }}
-            role="presentation"
-            onClick={toggleMenu(false)}
-          >
+          <Box sx={{ width: 250, flexShrink: 0 }} role="presentation">
             <div
               className="side-head"
               onClick={(e) => {
